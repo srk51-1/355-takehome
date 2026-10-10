@@ -1,4 +1,4 @@
-import applications from "./applications";
+import { applications } from "./applications";
 import Summary from "./components/Summary";
 import ApplicationList from "./components/ApplicationList";
 

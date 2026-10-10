@@ -1,5 +1,4 @@
-import ApplicationCard from "./ApplicationList.jsx";
-
+import ApplicationCard from "./ApplicationCard.jsx";
 export default function ApplicationList({ applications }) {
   // Create a copy of the list and put the newest applications first
   const newestFirst = [...applications].sort((app1, app2) => {
