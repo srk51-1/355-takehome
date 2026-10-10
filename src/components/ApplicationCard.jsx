@@ -1,4 +1,4 @@
-import ApplicationCard from './ApplicationCard';
+import ApplicationCard from "./ApplicationCard";
 
 export default function ApplicationList({ applications }) {
   // Create a copy of the list and put the newest applications first
@@ -9,10 +9,7 @@ export default function ApplicationList({ applications }) {
   return (
     <section className="job-list">
       {newestFirst.map((app) => (
-        <ApplicationCard
-          key={app.id}
-          application={app}
-        />
+        <ApplicationCard key={app.id} application={app} />
       ))}
     </section>
   );
