@@ -1,5 +1,9 @@
 # Job Application Tracker — Take-Home #1 starter
 
+A React application for tracking job applications. It displays a summary of 
+applications by status and a list of job applications,
+including company names, job titles, application statuses, dates, sources, and notes.
+
 This branch is **a scaffolded project — the data, the stylesheet and an entry point**.
 
 Full instructions and the grading rubric: <https://go.prmf.org/355/takehomes/1>
@@ -23,6 +27,17 @@ npm run dev
 - Render the list with map() and stable keys
 - Show a status badge, and hide fields that are empty
 - Calculate the summary counts from the data
+
+What I added
+
+- Summary.jsx — Calculates the total applications and counts by status.
+
+- ApplicationList.jsx — Sorts applications newest first and displays them using map() with stable keys.
+
+- ApplicationCard.jsx — Displays application details and hides empty notes and sources.
+
+- StatusBadge.jsx — Displays the status badge using its CSS class and label.
+
 
 ---
 
