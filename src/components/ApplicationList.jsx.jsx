@@ -1,4 +1,4 @@
-import ApplicationCard from "./ApplicationCard";
+import ApplicationCard from "./ApplicationList.jsx";
 
 export default function ApplicationList({ applications }) {
   // Create a copy of the list and put the newest applications first
